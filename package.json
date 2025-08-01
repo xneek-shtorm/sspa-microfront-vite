@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "single-spa": "^6.0.3"
+    "single-spa": "^6.0.3",
+    "single-spa-react": "^6.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
