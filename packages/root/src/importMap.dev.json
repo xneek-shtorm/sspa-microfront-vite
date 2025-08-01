@@ -1,5 +1,6 @@
 {
     "imports": {
-        "@learnSspa/mifeA": "http://localhost:4101/src/spa.tsx"
+        "@my-org/ui-kit": "http://localhost:4040/src/ui-kit.tsx",
+        "@my-org/app1": "http://localhost:4101/src/spa.tsx"
     }
 }

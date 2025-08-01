@@ -1,19 +1,19 @@
 {
-  "name": "sspa-microfront-vite",
+  "name": "my-org",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "main": "index.js",
-  "repository": "https://github.com/xneek-shtorm/sspa-microfront-vite.git",
+  "repository": "https://github.com/my-org-shtorm/sspa-microfront-vite.git",
   "author": "Nikolay Fedoseev <n.fedoseev@whyhappen.ru>",
   "license": "MIT",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "single-spa": "^6.0.3",
-    "single-spa-react": "^6.0.2"
+    "single-spa-react": "^6.0.2" 
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

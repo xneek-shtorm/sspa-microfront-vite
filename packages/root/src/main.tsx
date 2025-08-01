@@ -6,12 +6,15 @@ import App from './App.tsx'
 
 import { registerApplication, start } from 'single-spa'
 
-const mifeAModule = '@learnSspa/mifeA';
+const app1Module = '@my-org/app1';
+const kit = '@my-org/ui-kit';
+
+import(/* @vite-ignore */ kit);
 
 registerApplication({
-    name: 'mifeA',
-    app: () => import(/* @vite-ignore */ mifeAModule),
-    activeWhen: '/mifea'
+    name: 'app1',
+    app: () => import(/* @vite-ignore */ app1Module),
+    activeWhen: '/app1'
 });
 start();
 

@@ -1,5 +1,6 @@
 {
-    "imports": {
-        "@learnSspa/mifeA": "http://localhost:4101/spa.js"
-    }
+  "imports": {
+    "@my-org/ui-kit": "http://localhost:4040/ui-kit.js",
+    "@my-org/app1": "http://localhost:4101/spa.js"
+  }
 }
